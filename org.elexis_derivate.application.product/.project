@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>org.elexis_derivate.application.product</name>
+  <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>org.elexis_derivate.added_feature</project>
+    <project>org.elexis_derivate.added_plugin</project>
+    <project>org.elexis_derivate.application</project>
+    <project>org.elexis_derivate.application.feature</project>
+    <project>org.elexis_derivate.application.p2site</project>
+    <project>org.elexis_derivate.application.product</project>
+  </projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

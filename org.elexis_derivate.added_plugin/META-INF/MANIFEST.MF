@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Added_plugin
+Bundle-SymbolicName: org.elexis_derivate.added_plugin;singleton:=true
+Bundle-Version: 3.0.0.qualifier
+Bundle-Activator: org.elexis_derivate.added_plugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

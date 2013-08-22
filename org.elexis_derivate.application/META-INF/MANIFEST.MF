@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Derivate Elexis Application
+Bundle-SymbolicName: org.elexis_derivate.application
+Bundle-Version: 3.0.0.qualifier

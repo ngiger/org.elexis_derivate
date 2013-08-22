@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.elexis_derivate.application.feature"
+      label="Elexis Derived Application Feature"
+      version="3.0.0.qualifier"
+      provider-name="Demo by Niklaus Giger"
+      plugin="org.elexis_derivate.application">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="ch.elexis.base.ch.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="ch.elexis.base.textplugin.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="ch.elexis.core.common.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="ch.elexis.core.logging.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="ch.elexis.core.ui.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.p2.core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.p2.user.ui"
+         version="0.0.0"/>
+
+   <includes
+         id="org.elexis_derivate.added_feature"
+         version="0.0.0"/>
+
+</feature>

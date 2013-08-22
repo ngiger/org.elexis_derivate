@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Elexis Derivate Product
+Bundle-SymbolicName: org.elexis_derivate.application.product;singleton:=true
+Bundle-Version: 3.0.0.qualifier
+Bundle-Vendor: org.elexis_derivate
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.core.runtime,
+ ch.elexis.base.ch.medikamente.bag,
+ org.elexis_derivate.application,
+ org.elexis_derivate.added_plugin,
+ org.eclipse.ui.intro

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="org.elexis_derivate"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="ch.elexis.core.application.ElexisApp"
+            name="Elexis-Derivate">
+         <property
+               name="aboutText"
+               value="Demo on howto create an Elexis-Derivate">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="elexisprefs.ini">
+         </property>
+         <property
+               name="appName"
+               value="Elexis-Derivate">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

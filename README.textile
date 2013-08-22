@@ -1,0 +1,37 @@
+h1. org.elexis_derivate
+
+Example of how-to build a derivate of the Elexis 3.x application
+
+
+h2. build
+
+mvn clean install
+
+h2. remarks about the different pom.xml
+
+The following poms are really basic and just tell maven/tycho, which kind of project is to be built (plugin/feature)
+* org.elexis_derivate.added_feature/pom.xml
+* org.elexis_derivate.added_plugin/pom.xml
+* org.elexis_derivate.application.feature/pom.xml
+*org.elexis_derivate.application/pom.xml
+
+* org.elexis_derivate.application.product/pom.xml tells tycho to create a p2-repository and an eclipse application (aka product).
+
+The main pom.xml in the base directory 
+* uses modules to include the pom.xml from the subdirectories
+* defines an eclipse target @juno-target@, which is exported by the elexis-3-core/ch.elexis.target project.
+* defines the target environments, eg. 64-bit MacOSX using the cocoa window system
+* includes the necessary maven/tycho plugins to enable the builds 
+
+
+h2. hints
+
+As creating the correct pom.xml is not quite simple, I decided to create a simple project, with the basic layout needed to create an Elexis derivate  application and a P2 update site for it.
+
+It adds just a "SampleView" (plugin org.elexis_derivate.added_plugin) which can be locate via "Window..Other..SampleCategory". 
+
+I track changes to this project and the referenced https://github.com/elexis/elexis-3-core on my Jenkins CI. You should be able to find it under http://ngiger.dyndns.org/jenkins/job/Elexis-3-derivate/
+
+*Be aware that for the jgit-timestamp plugin to work you must commit new projects before calling Maven!*
+
+Further customizing like a custom splash, etc are out of scope for this demo.

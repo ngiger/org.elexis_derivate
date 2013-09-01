@@ -7,6 +7,8 @@
     <tycho-version>0.18.1</tycho-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tycho-extras.version>${tycho-version}</tycho-extras.version>
+    <repo_name>org.elexis_derivate</repo_name>
+    <repo_variant>snapshot</repo_variant>
   </properties>
   <modules>
     <module>org.elexis_derivate.added_plugin</module>

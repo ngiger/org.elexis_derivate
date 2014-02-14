@@ -4,7 +4,7 @@
   <artifactId>elexis-derivate-application</artifactId>
   <version>3.0.0-SNAPSHOT</version>
   <properties>
-    <tycho-version>0.18.1</tycho-version>
+    <tycho-version>0.19.0</tycho-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tycho-extras.version>${tycho-version}</tycho-extras.version>
     <repo_name>org.elexis_derivate</repo_name>
@@ -162,6 +162,7 @@
             <strictBinIncludes>false</strictBinIncludes>
             <format>'v'yyyyMMdd-HHmm</format>
             <timestampProvider>jgit</timestampProvider>
+            <jgit.dirtyWorkingTree>warning</jgit.dirtyWorkingTree>
             <jgit.ignore/>
           </configuration>
         </plugin>
